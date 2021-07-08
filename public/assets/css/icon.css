@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "Ionicons";
+  src: url("../fonts/ionicons28b5.eot?v=2.0.0");
+  src: url("../fonts/ionicons28b5.eot?v=2.0.0#iefix")
+      format("embedded-opentype"),
+    url("../fonts/ionicons28b5.ttf?v=2.0.0") format("truetype"),
+    url("../fonts/ionicons28b5.woff?v=2.0.0") format("woff"),
+    url("../fonts/ionicons28b5.svg?v=2.0.0#Ionicons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.forum-contact:before,
+.forum-search:before,
+.forum-facebook:before,
+.forum-home:before,
+.forum-chat::before,
+.forum-person-add::before,
+.forum-paper::before,
+.forum-help:before,
+.forum-medical:before,
+.forum-moon:before,
+.forum-images:before,
+.forum-document-text:before,
+.forum-add:before,
+.forum-thumb_sup:before,
+.forum-book:before,
+.forum-cog:before,
+.forum-thumb_down:before,
+.forum-university:before,
+.forum-airplane:before,
+.forum-image:before,
+.forum-female:before,
+.forum-delete:before,
+.forum-options:before,
+.forum-male:before,
+.forum-camera:before,
+.forum-man:before,
+.forum-woman:before,
+.forum-people:before,
+.forum-information:before,
+.forum-people-outline:before,
+.forum-telephone:before,
+.forum-lock:before,
+.forum-checkmark:before,
+.forum-arrow-dropleft-circle:before,
+.forum-arrow-dropright-circle:before,
+.forum-checkmark-round:before,
+.forum-happy:before,
+.forum-email:before,
+.forum-happy:before,
+.forum-twitch:before,
+.forum-close::before,
+.a::before {
+  display: inline-block;
+  font-family: "Ionicons";
+  /* speak: none; */
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-rendering: auto;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.forum-happy:before {
+  /* content: "\f31c"; */
+  content: "\f3c6";
+}
+.forum-email:before {
+  content: "\f423";
+}
+.forum-twitch:before {
+  content: "\f4ee";
+}
+.forum-happy:before {
+  content: "\f38e";
+}
+.forum-telephone:before {
+  content: "\f4b9";
+}
+.forum-checkmark:before {
+  content: "\f375";
+}
+.forum-lock:before {
+  content: "\f392";
+}
+.forum-information:before {
+  content: "\f149";
+}
+.forum-people:before {
+  content: "\f47c";
+  /* content: "\f3a0"; */
+}
+.forum-people-outline:before {
+  content: "\f47b";
+  /* content: "\f3a0"; */
+}
+.forum-woman:before {
+  content: "\f25d";
+}
+.forum-man:before {
+  content: "\f202";
+}
+.forum-arrow-dropright-circle:before {
+  content: "\f362";
+}
+.forum-arrow-dropleft-circle:before {
+  content: "\f360";
+}
+.forum-checkmark-round:before {
+  content: "\f121";
+}
+.forum-camera:before {
+  content: "\f2d3";
+}
+.forum-delete:before {
+  content: "\f37f";
+}
+.forum-options:before {
+  content: "\f39d";
+}
+.forum-male:before {
+  content: "\f2a1";
+}
+.forum-female:before {
+  content: "\f278";
+}
+.forum-university:before {
+  content: "\f357";
+}
+.forum-airplane:before {
+  content: "\f2c3";
+}
+.forum-image:before {
+  content: "\f2e4";
+}
+.forum-book:before {
+  content: "\f2bf";
+  /* content: "\f3e8"; */
+}
+.forum-cog:before {
+  content: "\f411";
+}
+.forum-close::before {
+  content: "\f12a";
+}
+.forum-thumb_down:before {
+  content: "\f250";
+}
+.forum-thumb_sup:before {
+  content: "\f251";
+}
+.forum-add:before {
+  content: "\f359";
+  /* content: "\f359"; */
+}
+.forum-document-text:before {
+  content: "\f12e";
+}
+.forum-images:before {
+  content: "\f148";
+  /* content: "\f2d3"; */
+}
+.forum-medical:before {
+  content: "\f45e";
+}
+.forum-help:before {
+  content: "\f143";
+}
+.forum-paper::before {
+  content: "\f472";
+}
+.forum-contact:before {
+  content: "\f2d8";
+}
+.forum-search:before {
+  content: "\f2f5";
+}
+.forum-facebook:before {
+  content: "\f231";
+}
+.forum-home:before {
+  content: "\f144";
+}
+.forum-moon:before {
+  content: "\f468";
+}
+.forum-chat:before {
+  content: "\f11f";
+  /* content: "\f2d4"; */
+}
+.forum-person-add::before {
+  content: "\f39f";
+}

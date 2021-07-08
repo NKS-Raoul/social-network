@@ -1,0 +1,347 @@
+html[data-theme="dark"] {
+  --bg: #222;
+  --text_input_title_Color: #ddd;
+  --site_color: #4f98f8ec;
+  --border: 0.3px solid #ffeeee59;
+  --inputBg: #444;
+  --colorText: #eee;
+  --componentBg: #333;
+  --covid_color: #ff3c00c2;
+  --bg_inverse: #e4eee4;
+  --small_title: #c2c0c0;
+  --commentBg: #444;
+  --hover: #444;
+  transition: 0.3s;
+}
+
+html {
+  --border: 0.3px solid #d4cece59;
+  --colorText: #111;
+  /* --bg: #e4eee1; */
+  --bg: #F0F2F7;
+  --bg_inverse: #222;
+  --text_input_title_Color: #666;
+  --site_color: #0e73f8;
+  --inputBg: #F0F2F8;
+  --componentBg: #fff;
+  --covid_color: #ff0000;
+  --small_title: #555;
+  --commentBg: #d1d9ddf0;
+  --hover: #20f2F8;
+  transition: 0.3s;
+}
+
+html,
+body {
+  background-color: var(--bg) !important;
+}
+
+.siteColor {
+  color: var(--site_color) !important;
+}
+.colorText {
+  color: var(--colorText) !important;
+}
+.colorRed {
+  color: var(--covid_color) !important;
+}
+.navBar form {
+  background-color: var(--inputBg);
+}
+
+.navBar form .btn1 {
+  background-color: var(--inputBg);
+}
+
+.navBar #logo_link {
+  background-color: var(--site_color);
+}
+
+.navBar form input {
+  color: var(--text_input_title_Color);
+}
+
+.small_title {
+  color: var(--small_title);
+}
+
+.navBar {
+  background-color: var(--componentBg);
+  border-bottom: var(--border);
+}
+
+.navBar .list_Proposition {
+  background: var(--componentBg);
+}
+
+.profile-card img.profile-photo {
+  border: 7px solid var(--componentBg);
+}
+
+.profile-card {
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #27aae1;
+}
+
+.text-white {
+  color: #fff;
+}
+
+a {
+  color: #27aae1;
+}
+
+.text-white:hover {
+  color: #fff;
+}
+
+ul.left_side-news-feed em.forum-chat {
+  color: #1c75bc;
+}
+
+.chat-alert {
+  background: red;
+  color: #fff;
+}
+
+#chat-block .title {
+  background: #8dc63f;
+  color: #fff;
+}
+
+ul.online-users li span.online-dot {
+  background: linear-gradient(
+    to bottom,
+    rgb(169, 235, 77),
+    rgba(0, 148, 68, 1)
+  );
+  border: 2px solid #fff;
+}
+
+.slider {
+  background-color: #8dc63f;
+}
+
+.slider::before {
+  background-color: #fefefe;
+}
+ul.left_side-news-feed li:hover {
+  background-color: var(--hover);
+}
+
+ul.left_side-news-feed em.forum-medical {
+  color: var(--covid_color);
+}
+div.feed-item div:last-child p {
+  color: var(--colorText);
+}
+
+input:checked + .slider {
+  background-color: #fefefe;
+  border: 0.5px solid #8dc63f;
+}
+input:checked + .round::before {
+  transform: translate(25px);
+  background-color: #8dc63f;
+}
+#add_subject > div .btn:hover {
+  background-color: var(--hover) !important;
+}
+.publicity_area > div div {
+  color: var(--colorText);
+}
+/* icons */
+.navBar .link li a:hover {
+  background-color: var(--inputBg);
+}
+.navBar .link li a:hover em {
+  color: var(--site_color);
+}
+#add_subject > div em.forum-images {
+  color: #8dc63f;
+}
+#add_subject > div em.forum-document-text {
+  color: var(--covid_color);
+}
+#add_subject > div em.forum-add {
+  color: var(--site_color);
+}
+
+#subject {
+  background-color: var(--componentBg);
+}
+#subject .like_answer > div:nth-child(1):hover,
+#subject .like_answer > div:last-child:hover,
+#subject .like_answer > div:nth-child(3):hover,
+#subject .like_answer > a:hover {
+  background-color: #c9b0b093;
+}
+
+#subject .like_answer > div:nth-child(1) em,
+#subject .like_answer > div:nth-child(3) em {
+  color: #8dc63f;
+}
+.infos_user .all_tags div {
+  background-color: #c9b0b093;
+  color: var(--site_color);
+}
+
+.infos_user .subject_info h4 {
+  color: #6d6363c0;
+}
+
+.infos_user .subject_info .profile > div:nth-child(1) {
+  box-shadow: 1.5px 1.5px 7px #0008;
+}
+
+.infos_user .subject_info .profile > div:nth-child(2) a {
+  color: var(--site_color);
+}
+.contener {
+  -webkit-box-reflect: below linear-gradient(transparent, #0001);
+  background-color: #ffffffe0;
+}
+
+.contener .loader {
+  border-bottom: 10px solid var(--site_color);
+  border-right: 10px solid var(--site_color);
+}
+
+.contener .loader .ball::before {
+  background: #fa5e04;
+}
+
+.icon {
+  color: gray;
+}
+.iconW {
+  color: var(--text_input_title_Color);
+}
+.iconWhite {
+  color: white;
+}
+.iconP {
+  color: var(--site_color);
+}
+
+.bdrLeft {
+  border-left: var(--border);
+}
+.bdrBottom {
+  border-bottom: var(--border);
+}
+
+.messenger {
+  background-color: var(--componentBg);
+}
+
+div.new_param {
+  color: var(--site_color);
+}
+
+div.messenger_search form {
+  background-color: var(--inputBg);
+}
+div.messenger_search form button {
+  background-color: transparent;
+}
+div.messenger_search form em,
+div.messenger_search form input::placeholder {
+  color: var(--text_input_title_Color);
+}
+div.messenger_search form input {
+  color: var(--colorText);
+}
+
+div.aDiscussion > div:first-child {
+  border: 4px solid var(--site_color);
+}
+div.aDiscussion:hover {
+  background-color: var(--inputBg);
+}
+.active {
+  background-color: var(--inputBg);
+}
+div.aDiscussion > div p:nth-child(1) span:nth-child(2),
+div.aDiscussion > div p:nth-child(2) {
+  color: var(--text_input_title_Color);
+}
+
+div.aDiscussion > div p:nth-child(1) {
+  color: var(--colorText);
+}
+
+div.messages > div:first-child {
+  color: var(--colorText);
+  box-shadow: 0 1.1px 10px #00000033;
+}
+
+.messBody .replies p {
+  background: var(--inputBg);
+  color: var(--colorText);
+}
+.messBody .send p {
+  background-color: var(--site_color);
+  color: #fefefe;
+}
+
+.messBody + form label {
+  color: var(--site_color);
+}
+.messBody + form label:hover {
+  background-color: var(--inputBg);
+}
+.messBody + form input {
+  background-color: transparent;
+  color: var(--colorText);
+}
+.messBody + form input::placeholder {
+  color: var(--small_title);
+}
+
+.messBody + form button {
+  background-color: transparent;
+}
+.messBody + form button:hover {
+  background-color: var(--inputBg);
+}
+.messBody + form button em {
+  color: var(--site_color);
+}
+
+.messBody + form > div {
+  background-color: transparent;
+}
+.messBody + form > div div {
+  background-color: var(--componentBg);
+}
+.messBody + form div em {
+  color: var(--site_color);
+}
+
+#profile_body > div:first-child div.link {
+  background-color: #000000b0;
+}
+#profile_body div.profile-card ~ ul li {
+  color: #fefefe;
+}
+div.user_infos {
+  background-color: var(--componentBg);
+}
+
+.addPublication input::placeholder,
+.addPublication input::-moz-placeholder,
+.addPublication input::-webkit-input-placeholder,
+.addResponse input::placeholder,
+.addResponse input::-moz-placeholder,
+.addResponse input::-webkit-input-placeholder {
+  color: var(--text_input_title_Color) !important;
+}

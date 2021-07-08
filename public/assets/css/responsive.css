@@ -1,0 +1,303 @@
+.resp_profile_card {
+  display: none;
+}
+.publicity_area_resp {
+  display: none;
+  transition: 0.3s;
+}
+.messages_block {
+  display: none;
+}
+.container_option {
+  display: none;
+}
+.resp_form {
+  display: none;
+}
+.resp_menu {
+  background-color: var(--componentBg);
+  display: none;
+  flex-direction: column;
+  width: 320px;
+  padding: 0 20px;
+  top: 60px;
+  right: -80%;
+  transition: 0.3s;
+  padding: 5px 4px;
+}
+.move {
+  right: 0.5% !important;
+  display: block !important;
+}
+.moveLeft {
+  left: 0.5% !important;
+  display: block !important;
+}
+.moveLeft1 {
+  left: 0.5% !important;
+  display: flex !important;
+}
+.resp_menu > div,
+.resp_menu > ul {
+  width: 300px;
+}
+.messAlert {
+  transition: 0.4s;
+}
+.messengerRight {
+  transition: 0.5s;
+  position: inherit;
+}
+.messengerLeft {
+  transition: 0.5s;
+  position: inherit;
+}
+.openProfileList {
+  display: none;
+}
+.openContactList {
+  display: none;
+}
+.resp_profile_body {
+  margin-top: 20px;
+  transition: 0.5s;
+}
+.resp_link_bar {
+  background-color: #000000b0;
+  color: #fefefe;
+  display: none;
+  transition: 0.5s;
+  align-items: center;
+  margin-top: 60px;
+}
+.resp_profile_card_form {
+  transition: 0.5s;
+}
+.follow {
+  color: #fefefe;
+}
+.resp_follow {
+  display: none;
+}
+li em.forum-information {
+  z-index: 999;
+}
+.resp_profile_body > div:first-child {
+  transition: 0.5s;
+}
+.resp_profile_subject {
+  transition: 0.5s;
+}
+#answer_body {
+  transition: 0.5s;
+}
+@media (max-width: 1536px) {
+  .resp_menu {
+    display: none !important;
+  }
+}
+@media (min-width: 1535px) {
+    .resp_menu {
+      display: none !important;
+    }
+  }
+@media (max-width: 1453px) {
+  #right_menu {
+    display: none;
+  }
+  #left_menu {
+    width: 400px;
+  }
+  #page-contents {
+    width: 900px;
+    left: calc(30% + 45px);
+  }
+  .publicity_area_resp {
+    display: block;
+    height: 210px;
+  }
+  /* .resp_menu {
+    display: none !important;
+  } */
+}
+
+@media (max-width: 1440px) {
+  .messAlert {
+    left: 80px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .messAlert {
+    left: 100px;
+  }
+  .messengerRight {
+    position: absolute;
+    background-color: var(--componentBg);
+    right: -100%;
+    width: 300px;
+    display: none;
+    height: calc(100vh - 200px);
+  }
+  .openProfileList {
+    display: block;
+    z-index: 9999;
+  }
+}
+
+@media (max-width: 1355px) {
+  #left_menu {
+    left: 10px;
+  }
+  #page-contents {
+    width: 900px;
+    left: calc(28% + 45px);
+  }
+}
+
+@media (max-width: 1306px) {
+  #left_menu {
+    display: none;
+  }
+  .resp_profile_card_form {
+    display: flex;
+  }
+  .messages_block {
+    display: block;
+  }
+  #page-contents {
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 0 50px;
+  }
+  .resp_profile_card {
+    display: flex;
+  }
+}
+
+@media (max-width: 1172px) {
+  .resp_follow {
+    display: flex;
+  }
+  .follow {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1114px) {
+  .resp_link {
+    display: none;
+  }
+  .resp_profile {
+    display: none;
+  }
+  .container_option {
+    width: 35px !important;
+    display: block;
+    height: 30px;
+  }
+  .resp_cont_profile {
+    width: 150px !important;
+  }
+  .resp_menu {
+    display: flex !important;
+  }
+  .messengerLeft {
+    position: absolute;
+    background-color: var(--componentBg);
+    left: -100%;
+    height: calc(100vh - 60px);
+  }
+  .messengerLeft .receiver {
+    overflow-y: scroll;
+  }
+  .openContactList {
+    display: block !important;
+    z-index: 9999;
+  }
+}
+
+@media (max-width: 1018px) {
+  .resp_profile-menu {
+    display: none;
+  }
+  .resp_follow-me {
+    display: none;
+  }
+  .link_bar {
+    background-color: transparent !important;
+  }
+  .resp_profile_body {
+    margin-top: 65px;
+    /* padding: 100px 0; */
+  }
+  .resp_link_bar {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .resp_profile_card_form h2 {
+    margin-top: -20px !important;
+  }
+  .resp_profile_card_form {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .resp_profile_body > div:first-child {
+    position: absolute;
+    left: -100%;
+    width: 200px;
+  }
+  .resp_profile_subject {
+    width: 100% !important;
+  }
+  #answer_body {
+    width: 99% !important;
+  }
+}
+
+@media (max-width: 1025px) {
+  #page-contents {
+    left: 50%;
+    width: 90%;
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 872px) {
+  #profile_body > div:nth-child(2) {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 685px) {
+  .resp_link_bar {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .resp_link_bar .profile-menu {
+    margin-bottom: 15px;
+  }
+  .resp_profile_card_form h2 {
+    margin-top: -35px !important;
+  }
+}
+
+@media (max-width: 607px) {
+  .publicity_area_resp {
+    width: 60%;
+  }
+}
+@media (max-width: 546px) {
+  .frst_div textarea {
+    width: 75%;
+  }
+}
+@media (max-width: 531px) {
+  .searchForm {
+    display: none;
+  }
+  .resp_form {
+    display: flex !important;
+  }
+}

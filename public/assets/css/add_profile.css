@@ -1,0 +1,59 @@
+#add_profile{
+    width: 100%;
+    height: 100vh;
+    /* border: 1px solid #000; */
+}
+#add_profile .container{
+    width: 100%;
+    height: 94%;
+    /* border: 1px solid #000; */
+    background-color: #0005;
+}
+.w100{
+    width: 100%;
+}
+.h100{
+    height: 100%;
+}
+.borderB{
+    border: 1px solid #000;
+}
+#add_profile .container .header > div{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: 6px solid #0e73f8;
+    border-left: 6px solid #0e73f8;
+    border-right: 6px solid #0e73f8;
+}
+#add_profile .add_background{
+    position: relative;
+    left: -27px;
+    top: 0%;
+    background-color: #fefefe;
+}
+#add_profile .add_newimg_profile{
+    min-height: 50vh;
+    background-color: #fefefe;
+    border-radius: 10px;
+    position: absolute;
+    top: 12em;
+}
+#list_course{
+    border-radius: 5px;
+    border: 2px solid #0e73f8;
+    background: transparent;
+    color: #000;
+    padding: .5em;
+}
+label[for="new_background"] em{
+    color: #0e73f8;
+}
+#add_profile .list_tags{
+    border: 1px solid #0e131a;
+    border-radius: 3px;
+    margin: 2.5px 2px;
+    padding: 2.5px !important;
+}
+.textRed{
+    color: red !important;
+}

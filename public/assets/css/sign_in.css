@@ -1,0 +1,151 @@
+.log_sign_bg {
+    overflow: hidden;
+    font-family: sans-serif;
+    height: 100vh;
+    width: 100%;
+    /* border: 5px solid #000; */
+}
+
+
+/*styling the container using responsive design*/
+
+.log_sign_bg .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 93.2%;
+    width: 100%;
+    background-color: #0005 !important;
+    /* border: 5px solid #000; */
+}
+
+
+/*styling the container using responsive design*/
+
+.log_sign_bg .heading {
+    font-size: 2.5em;
+    font-weight: bolder;
+    text-align: center;
+    padding: .45em;
+}
+
+
+/*styling the container using responsive design*/
+
+.log_sign_bg .connection-div,
+.log_sign_bg .creat-account {
+    display: block;
+    margin: 0 auto;
+    margin-top: 2em;
+    border-radius: 6px;
+    width: 35%;
+    height: 23em;
+    background-color: white;
+}
+
+
+/*styling the container using responsive design*/
+
+.log_sign_bg .error {
+    color: #ff0000;
+}
+
+.log_sign_bg .input-div {
+    padding: 1.2em;
+    display: block;
+}
+
+.log_sign_bg input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(129, 126, 126);
+    height: 3em;
+    width: 95%;
+    margin-bottom: 1em;
+    font-size: 1em;
+}
+
+.log_sign_bg i {
+    transform: translate(22rem, -2.75rem);
+    color: #0e73f8;
+    font-size: 1.2em;
+}
+
+.log_sign_bg .foot {
+    display: block;
+    padding: 1.2em;
+    padding-top: 1px;
+}
+
+.log_sign_bg #creation-button,
+.log_sign_bg #connect-button {
+    width: 95%;
+    height: 2.3em;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+}
+
+.log_sign_bg #connect-button {
+    background-color: #0e73f8;
+}
+
+.log_sign_bg .link-div,
+.log_sign_bg .secondLink-div {
+    text-align: center;
+    margin-top: 1.5em;
+    font-size: 00.8em;
+}
+
+.log_sign_bg .bout1-link {
+    color: white;
+}
+
+.log_sign_bg .bout2-link {
+    color: black;
+}
+
+.log_sign_bg a {
+    text-decoration: none;
+    color: #0e73f8;
+}
+
+
+/*******************************The creation account**************************************/
+
+.log_sign_bg .creat-account {
+    height: 9em;
+    padding: 10px;
+}
+
+.log_sign_bg #creation-button {
+    text-decoration: none;
+    border: 1px solid #000;
+    background-color: #fefefe;
+    margin: 0.5em;
+}
+
+.log_sign_bg p {
+    font-size: 1em;
+    text-align: center;
+    font-weight: bolder;
+}
+/* //////////////////////////// */
+footer a {
+    text-decoration: none;
+    color: #0e73f8;
+}
+
+footer .home-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 13px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #00000005 !important;
+    border-radius: 5px;
+}
